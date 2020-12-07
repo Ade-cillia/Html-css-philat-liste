@@ -79,7 +79,11 @@ main{
     background-color: fuchsia;
 }
 .imgStamp{
-    height: 100%;
+    width: 40%;
     margin-left: 100px;
     margin-right: 100px;
+}
+.textStamp{
+    margin-left: 100px;
+    margin-right: 50%;
 }
