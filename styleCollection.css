@@ -1,0 +1,45 @@
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menuCollection{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    height: 100px;
+    background-color: aqua;
+}
+.menuCollectionList{
+    list-style-type: none;
+    font-size: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.SearchDiv{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.Search{
+    margin-top: 7px;
+    margin-left: 10px;
+    padding: 6px;
+}
+.searchImage{
+    margin-top: 6px;
+    width: 40px;
+    height: 30px;
+    border: 1px solid black;
+}
