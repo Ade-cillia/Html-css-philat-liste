@@ -1,3 +1,6 @@
+main{
+    height: 1000px; /* 1500px */
+}
 .center{
     display: flex;
     justify-content: center;
@@ -33,16 +36,6 @@
 }
 
 
-
-
-
-
-
-
-
-
-
-
 .SearchDiv{
     margin-top: 20px;
     display: flex;
@@ -58,4 +51,22 @@
     width: 40px;
     height: 30px;
     border: 1px solid black;
+}
+
+
+.image{
+    margin-top: 80px;
+    width: 100%;
+    height: 50%;
+    background: aqua;
+}
+
+.commonImage{
+
+}
+.rareImage{
+    display: none;
+}
+.uniqueImage{
+    display: none;
 }

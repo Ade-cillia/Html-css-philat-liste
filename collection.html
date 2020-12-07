@@ -21,17 +21,22 @@
             <div class="center">
                 <div class="menuCollection">
                     <ul class="menuCollectionList">
-                        <li><input class="menuTexte" type="button" value="Timbre Commun"></li>
-                        <li><input class="menuTexte" type="button" value="Timbre Rare"></li>
-                        <li><input class="menuTexte" type="button" value="Timbre Unique"></li>
+                        <li><input class="menuTexte" data-choice="Common" type="button" value="Timbre Commun"></li>
+                        <li><input class="menuTexte" data-choice="Rare" type="button" value="Timbre Rare"></li>
+                        <li><input class="menuTexte" data-choice="Unique" type="button" value="Timbre Unique"></li>
                     </ul>
                 </div>
             </div>
-
             <div class="SearchDiv">
                 <h1>Rechercher : </h1>
                 <input class="Search" type="text" name="search" placeholder="Search">
                 <img class="searchImage" src="image/search.png" alt="Image d'une loupe pour la barre rechercher ">
+            </div>
+            <div class="image commonImage">
+            </div>
+            <div class="image rareImage">
+            </div>
+            <div class="image uniqueImage">
             </div>
         </main>
         <footer>
@@ -46,5 +51,6 @@
                 <li><img class="sizeFooterImage" src="image/twitterICO.png" alt="Icone Twitter"> </li>
             </ul>
         </footer>
+        <script src="script.js"></script>
     </body>
 </html>
