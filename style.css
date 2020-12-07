@@ -37,6 +37,7 @@ footer{
     display: flex;
     justify-content: center;
     justify-content: space-around;
+    list-style-type: none;
     font-size: 40px;
     list-style-type: none;
 

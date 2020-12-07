@@ -9,11 +9,27 @@
     justify-content: center;
     width: 50%;
     height: 100px;
-    background-color: aqua;
 }
 .menuCollectionList{
-    list-style-type: none;
+
     font-size: 30px;
+}
+.menuCollectionList{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    font-size: 40px;
+
+}
+.menuTexte{
+    padding: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    cursor: pointer;
+    background: aqua;
+    border: 2px solid black;
+    color: black;
+    margin: 30px;
 }
 
 
