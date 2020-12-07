@@ -67,16 +67,16 @@ main{
 }
 
 .commonImage{
-    background-color: antiquewhite;
+    background-color: #9cdb14;
 
 }
 .rareImage{
     display: none;
-    background-color: chocolate;
+    background-color: #c98a0a;
 }
 .uniqueImage{
     display: none;
-    background-color: fuchsia;
+    background-color: #a11f1f;
 }
 .imgStamp{
     width: 40%;

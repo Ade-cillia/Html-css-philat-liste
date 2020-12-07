@@ -23,18 +23,18 @@
                 <form method="get" action="valide.html">
                     <label class="formInput" for=""> Nom et Prénom : </label>
                     <br/>
-                    <input class="formInput" type="text" placeholder="Nom" name="name">
-                    <input type="text" placeholder="Prénom" name="firstname">
+                    <input class="formInput" type="text" placeholder="Nom" name="name" required>
+                    <input type="text" placeholder="Prénom" name="firstname" required>
                     <br/>
                     <label class="formInput" for=""> Adresse : </label>
                     <br/>
-                    <input class="formInput" type="Texte" placeholder="Rue" name="streetaddress" size="82" ><br/>
-                    <input class="formInput" type="Texte" placeholder="Ville" name="cityaddress" size="38" >
-                    <input type="number" placeholder="Code postale" name="postalcode" size="60" min="1">
+                    <input class="formInput" type="Texte" placeholder="Rue" name="streetaddress" size="82" required><br/>
+                    <input class="formInput" type="Texte" placeholder="Ville" name="cityaddress" size="38" required>
+                    <input type="number" placeholder="Code postale" name="postalcode" size="60" min="1" required>
                     <br/>
                     <label class="formInput" for=""> Message : </label><br/>
-                    <textarea class="formInput" rows="7" cols="84"></textarea><br/>
-                    <label class="formInput" for="checkaccepte" placeholder="Votre message"> J'accepte d'envoyer le formulaire</label>
+                    <textarea class="formInput" rows="7" cols="84" required></textarea><br/>
+                    <label class="formInput" for="checkaccepte" placeholder="Votre message" required> J'accepte d'envoyer le formulaire</label>
                     <input class="formInput" type="checkbox" id="checkaccepte"><br/>
                     <input class="formInput" type="reset" value="Reset"><br/>
                     <input class="formInput" type="submit" value="Envoyer">
@@ -44,14 +44,7 @@
                 <h1 class="titleTheme">Où somme nous :</h1>
                 <img class="imageMap" src="image/map.png" alt="nous somme 25 rue André Malraux, 69720 Saint-Laurent-de-Mure">
             </div>
-            <!--
-            <div>
-                <h1>Nos horraire d'ouverture :</h1>
-                <div class="board">
-
-                </div>
-            </div>
-            -->
+            
 
 
 
@@ -61,7 +54,7 @@
             <p class="FooterText">©2020-2021- Agence Philatéliste  </p>
             <ul class="FooterList">
                 <li>FAQ</li>
-                <li>Contact</li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
 
             <ul class="FooterListNetwork">
