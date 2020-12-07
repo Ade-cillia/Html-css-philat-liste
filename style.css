@@ -5,12 +5,17 @@
 body{
     height: 100vh;
     width: 100vw;
+}
+main{
     background: linear-gradient(#f5fcff, #c9f0ff) no-repeat;
 }
 header{
     background-color: #004d6d;
 }
-
+footer{
+    background-color: grey;
+    height: 100px;
+}
 
 /* HEADER */
 .title{
@@ -50,31 +55,64 @@ header{
 
 .allBlock{
     display: flex;
-    height: 600px;
-    background-color: aquamarine;
-    margin: 40px;
+    height: 600;
+    padding: 40px;
 }
 .storyBlock{
     width: 50%;
     height: 100%;
-    background-color: cornflowerblue;
+    /*background-color: cornflowerblue;*/
 }
 .explainBlock{
-    display: flex;
     width: 50%;
     height: 100%;
-    background-color: firebrick;
+    /*background-color: firebrick;*/
+    display: flex;
+    align-items: flex-end;
 }
 
 .storyImage{
-    width: 90%
+    width: 90%;
+    height: 60%;
+}
+.Text{
+    margin-top: -4px;
+    padding-top: 10px;
+    background-color: aliceblue;
+    font-size: 30px;
+    border: 2px solid black;
+    padding-bottom: 10px;
+
 }
 .storyText{
     margin-right: 10%;
-    font-size: 20px;
+}
+.explainImage{
+    padding-left: 10%;
+    width: 90%;
+    height: 50%;
+}
+.explainText{
+    margin-left: 10%;
 }
 
-.explainImage{
-    width: 90%;
-    height: 55%;
+
+
+
+
+/* FOOTER */
+.FooterList{
+    margin-left: 80%;
+    position: relative;
+    top: -30px;
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-end;
+    justify-content: space-around;
+
+}
+.sizeFooterImage{
+    display: flex;
+    width: 50px;
+
 }
