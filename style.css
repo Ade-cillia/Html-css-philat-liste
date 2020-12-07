@@ -8,6 +8,7 @@ body{
 }
 main{
     background: linear-gradient(#f5fcff, #c9f0ff) no-repeat;
+    height: 100%;
 }
 header{
     background-color: #004d6d;
@@ -97,7 +98,6 @@ footer{
 .explainText{
     margin-left: 10%;
 }
-
 
 
 

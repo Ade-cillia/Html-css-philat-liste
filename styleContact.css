@@ -1,0 +1,17 @@
+main{
+    height: 1500px;
+}
+
+.titleTheme{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.formInput {
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+.imageMap{
+    margin-left: 50px;
+    margin-bottom: 30px;
+}

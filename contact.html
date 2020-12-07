@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="styleContact.css">
+        <title>Contact</title>
+    </head>
+    <body>
+        <header>
+            <h1 class="title">Le Philatéliste Du Temps</h1>
+            <div class="menu">
+                <ul class="menuButton">
+                    <li><a class="menuButtonclick" href="index.html">Accueil</a></li>
+                    <li><a class="menuButtonclick" href="index.html">Collection</a></li>
+                    <li><a class="menuButtonclick" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </header>
+        <main>
+            <div>
+                <h1 class="titleTheme">Contactez nous :</h1>
+                <form action="formulaire">
+                    <label class="formInput" for=""> Nom et Prénom : </label>
+                    <br/>
+                    <input class="formInput" type="text" placeholder="Nom" name="name">
+                    <input type="text" placeholder="Prénom" name="firstname">
+                    <br/>
+                    <label class="formInput" for=""> Adresse : </label>
+                    <br/>
+                    <input class="formInput" type="Texte" placeholder="Rue" name="streetaddress" size="82" ><br/>
+                    <input class="formInput" type="Texte" placeholder="Ville" name="cityaddress" size="38" >
+                    <input type="number" placeholder="Code postale" name="postalcode" size="60" min="1">
+                    <br/>
+                    <label class="formInput" for=""> Message : </label><br/>
+                    <textarea class="formInput" rows="7" cols="84"></textarea><br/>
+                    <label class="formInput" for="checkaccepte" placeholder="Votre message"> J'accepte d'envoyer le formulaire</label>
+                    <input class="formInput" type="checkbox" id="checkaccepte"><br/>
+                    <input class="formInput" type="reset" value="Reset"><br/>
+                    <input class="formInput" type="submit" value="Envoyer">
+                </form>
+            </div>
+            <div>
+                <h1 class="titleTheme">Où somme nous :</h1>
+                <img class="imageMap" src="image/map.png" alt="nous somme 25 rue André Malraux, 69720 Saint-Laurent-de-Mure">
+            </div>
+            <div>
+                <h1>Nos horraire d'ouverture :</h1>
+            </div>
+
+
+
+
+
+        </main>
+        <footer>
+            <p class="FooterText">©2020-2021- Agence Philatéliste  </p>
+            <ul class="FooterList">
+                <li>FAQ</li>
+                <li>Contact</li>
+            </ul>
+
+            <ul class="FooterListNetwork">
+                <li><img class="sizeFooterImage" src="image/facebookICO.png" alt="Icone Facebook"> </li>
+                <li><img class="sizeFooterImage" src="image/instagramICO.png" alt="Icone Instagram"> </li>
+                <li><img class="sizeFooterImage" src="image/twitterICO.png" alt="Icone Twitter"> </li>
+            </ul>
+
+        </footer>
+    </body>
+</html>
