@@ -13,8 +13,10 @@ header{
     background-color: #004d6d;
 }
 footer{
+    display: flex;
+    flex-direction: column;
     background-color: grey;
-    height: 100px;
+    height: 70px;
     width: 100%;
 }
 
@@ -68,7 +70,6 @@ footer{
     width: 50%;
     height: 100%;
     /*background-color: firebrick;*/
-    display: flex;
     align-items: flex-end;
 }
 
@@ -103,6 +104,16 @@ footer{
 
 /* FOOTER */
 .FooterList{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    justify-content: space-around;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+
+.FooterListNetwork{
     margin-left: 80%;
     position: relative;
     top: -30px;
@@ -113,7 +124,13 @@ footer{
 
 }
 .sizeFooterImage{
-    display: flex;
     width: 50px;
 
+}
+.FooterText{
+    position: relative;
+    top: 20px;
+    right: -50px;
+    font-size: 15px;
+    align-items: center;
 }
